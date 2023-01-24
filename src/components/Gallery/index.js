@@ -3,14 +3,14 @@ import './style.scss';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
-import retrato1 from '../../assets/img/retrato-1.jpg';
-import retrato2 from '../../assets/img/retrato-2.jpg';
-import retrato3 from '../../assets/img/retrato-3.jpg';
-import paisagem1 from '../../assets/img/paisagem-1.jpg';
-import paisagem2 from '../../assets/img/paisagem-2.jpg';
-import quadrado1 from '../../assets/img/quadrado-1.jpg';
-import quadrado2 from '../../assets/img/quadrado-2.jpg';
-import quadrado3 from '../../assets/img/quadrado-3.jpg';
+// import retrato1 from '../../assets/img/retrato-1.jpg';
+// import retrato2 from '../../assets/img/retrato-2.jpg';
+// import retrato3 from '../../assets/img/retrato-3.jpg';
+// import paisagem1 from '../../assets/img/paisagem-1.jpg';
+// import paisagem2 from '../../assets/img/paisagem-2.jpg';
+// import quadrado1 from '../../assets/img/quadrado-1.jpg';
+// import quadrado2 from '../../assets/img/quadrado-2.jpg';
+// import quadrado3 from '../../assets/img/quadrado-3.jpg';
 import $ from 'jquery';
 
 
@@ -35,7 +35,7 @@ const Gallery = () => {
 
     return  (
         <section className="gallery" id='gallery'>
-            <div className="container__full">
+            {/* <div className="container__full">
                 <div className='gallery__image gallery__image-1'>
                     <LazyLoadImage src={paisagem2} alt='' />
                 </div>
@@ -85,7 +85,7 @@ const Gallery = () => {
                 <div className='gallery__image gallery__image-15'>
                     <LazyLoadImage src={quadrado3} alt='' />
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

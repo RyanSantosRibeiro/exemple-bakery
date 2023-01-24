@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 import bg from '../../assets/img/background.jpg';
-import bg2 from '../../assets/img/paisagem-2.jpg';
-import arrowLeft from '../../assets/img/left-arrow.png';
-import arrowRight from '../../assets/img/right-arrow.png';
 
 const Banner = () => {
     /*const [active,setActive] = useState(0);
