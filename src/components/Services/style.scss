@@ -1,0 +1,85 @@
+@import './../../scss/all.scss';
+
+.services {
+    background-color: palegreen;
+    height: auto;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+
+
+    .container {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    &__modal {
+        opacity: 1;
+        background-color: $color-3-400;
+        height: 100%;
+        min-height: 255px;
+        max-height: 100%;
+        width: 350px;
+        max-width: 70%;
+        margin: 40px 0;
+        // border: 3px solid $color-2;
+        box-shadow:  10px 10px 40px #bebebe;
+        border-radius: 12px;
+        padding: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+
+        h4 {
+            font-size: 32px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        &__action {
+            @include button('default');
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+            color: $color-7;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        img {
+            width: 30px;
+        }
+    }
+
+    &.animate {
+        .default-title {
+            @include fade("in","right", 300px, 4s);
+        }
+        
+        .contact__modal {
+            @include fade("in","zoom", .6, 5s);
+        }
+    }
+
+}
