@@ -2,8 +2,9 @@
 
 .header {
     background-color: $color-1;
-    height: 70px;
+    height: 80px;
     padding: 8px 0;
+    box-shadow:  2px -4px 10px #444444;
 
     display: flex;
     align-items: center;
@@ -11,27 +12,27 @@
     width: 100%;
     z-index: 100;
     transition: 400ms all ease-in-out;
-    transform: translateY(-100%);
+    // transform: translateY(-100%);
     position: fixed;
+    z-index: 1000;
+    top: 0;
     
     &.fixed {
         transform: translateY(0%);
+        height: 60px;
+        
+        .header__button {
+            transform: translateY(-100%);
+        }
 
         .header__logo {
             a {
                 color: $color-1;
                 font-size: 18px;
             }
-        }
 
-        .header__menu {
-            a {
-                color: $color-1;
-                
-                &:hover {
-                    color: $color-2;
-                    // background-color: $black;
-                }
+            img {
+                height: 80px;
             }
         }
         
@@ -45,15 +46,45 @@
     }
 
     &__button {
-        background-color: palegreen;
-        width: 15vw;
+        transition: 300ms all ease-in-out;
+        width: 12vw;
         height: auto;
         position: absolute;
-        left: 35vw;
+        left: 44vw;
         display: flex;
+        transform: translateY(25%);
+        position: relative;
+        
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        
+        &:hover {
+            transform: translateY(28%);
+        }
 
         img {
             width: 100%;
+        }
+        
+        &__text {
+            position: absolute;
+            bottom: 26px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;
+            
+            img {
+                max-width: 50%;
+            }
+
+            p {
+                color: $color-4;
+                font-weight: 600;
+                width: 60%;
+                margin: 0 auto;
+            }
         }
     }
 
@@ -65,31 +96,31 @@
             color: $color-4;
             font-weight: $font-weight-700;
             transition: 400ms all ease-in-out;
+            height: 100%;
 
             display: flex;
 
         }
 
         img {
-            max-height: 50px;
+            height: 90px;
+            transition: 400ms all ease-in-out;
         }
     }
 
-    &:not(.fixed) {
-        .highlight {
-            background-color: $color-1-600;
-            display: flex;
-            border-radius: 4px;
+    .highlight {
+        background-color: $color-3;
+        display: flex;
+        border-radius: 4px;
 
-            &:hover {
-                background-color: $color-1-900;
-            }
-            
-            a {
-                color: $white;
-                &::after {
-                    display: none;
-                }
+        &:hover {
+            background-color: $color-4-500;
+        }
+        
+        a {
+            color: $white;
+            &::after {
+                display: none;
             }
         }
     }
@@ -104,8 +135,8 @@
         
         a {
             padding: 6px 12px;
-            color: $color-1-800;
-            font-weight: $font-weight-500;
+            color: $color-4-500;
+            font-weight: $font-weight-600;
             font-size: $font-size-sm;
             transition: 200ms all ease-in-out;
             position: relative;
@@ -125,7 +156,7 @@
                 content: "";
                 width: calc(100% - 24px);
                 height: 2px;
-                background-color: $color-1;
+                background-color: $color-4;
                 border-radius: 2px;
                 position: absolute;
                 bottom: -2px;

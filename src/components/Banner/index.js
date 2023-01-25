@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.scss';
 
 import bg from '../../assets/img/background.jpg';
+import logo from './../../assets/img/LogoLadyDay.png';
 
 const Banner = () => {
     /*const [active,setActive] = useState(0);
@@ -31,12 +32,18 @@ const Banner = () => {
         <section className="banner active1" id='banner'>
             <img alt='' className='banner__image' src={bg} />
             <div className='banner__services'>
-                <p className='banner__services__title'>Logistica</p>
-                <p className='banner__services__title'>Serviços</p>
-                <p className='banner__services__title'>Comercio</p>
-                <p className='banner__services__text'>A “Imperium Serviços, Logística e Comércio” é uma empresa que assumiu o desafio de atuar 
-                    numa área ocupada por grandes empresas, trazendo ao 
-                    mercado um modelo de atuação diferenciado.</p>
+    
+                <p className='banner__services__title'>Lady Day</p>
+                <p className='banner__services__text'>Padaria - Confeitaria - Lanchonete</p>
+                
+                <div className='banner__services__box'>
+
+                    <p className='banner__services__box__title'>Missão e Lore</p>
+                    <p className='banner__services__box__text'>A Lady Day tem como missão colocar à disposição produtos 
+                                de alta qualidade e ótima relação custo/benefício.</p>
+                                <img alt='' className='banner__services__image' src={logo} />
+                </div>
+                
                 <div className='banner__services__buttons'>
                     <a href='/'>Serviços</a>
                     <a href='/'>ou entre em contato</a>

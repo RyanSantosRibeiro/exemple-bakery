@@ -1,7 +1,7 @@
 @import './../../scss/all.scss';
 
 .contact {
-    background-color: $color-3;
+    background-color: $white;
     height: auto;
     padding: 80px 0;
 
@@ -12,7 +12,7 @@
     flex-direction: column;
 
     .default-title {
-        opacity: 0;
+        // opacity: 0;
     }
 
     .container {
@@ -21,8 +21,8 @@
     }
 
     &__modal {
-        opacity: 0;
-        background-color: $color-3-400;
+        // opacity: 0;
+        background-color: $color-1-500;
         height: 100%;
         min-height: 255px;
         max-height: 100%;
@@ -44,20 +44,11 @@
             font-size: 32px;
             font-weight: 500;
             text-transform: uppercase;
+            color: $color-4;
         }
         
         &__action {
-            padding: 10px 20px;
-            background-color: $color-2;
-            color: $color-1;
-            font-weight: 600;
-            font-size: 22px;
-            border-radius: 4px;
-            cursor: pointer;
-
-            &:hover {
-                background-color: $color-2-700;
-            }
+            @include button($cta-primary)
         }
     }
 
@@ -72,6 +63,7 @@
             justify-content: flex-start;
             gap: 10px;
             color: $color-7;
+            font-weight: 600;
 
             &:hover {
                 text-decoration: underline;

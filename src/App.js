@@ -17,9 +17,9 @@ function App() {
       <Banner />
       <Services />
       <Instagram />
+      <Contact />
       <About />
-      {/* <Gallery />
-      <Contact /> */}
+      {/* <Gallery /> */}
       <Footer />
     </div>
   );

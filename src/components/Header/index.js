@@ -3,7 +3,7 @@ import './style.scss';
 
 import $ from 'jquery';
 
-import logo from './../../assets/img/logo-2.png';
+import logo from './../../assets/img/LogoLadyDay.png';
 import circle from './../../assets/img/circle.png';
 import bread from './../../assets/img/bread.png';
 
@@ -25,13 +25,13 @@ const Header = () => {
 
     return  (
         <div className="header" id='header'>
-            <div className='header__button'>
+            {/* <div className='header__button'>
                 <img src={circle} alt="Padaria"/>
                 <div className='header__button__text'>
                     <p>Faça Seu Dedido</p>
                     <img src={bread} alt="Padaria"/>
                 </div>
-            </div>
+            </div> */}
             <div className='container'>
                 <div className='header__logo'>
                     <a href='/'>

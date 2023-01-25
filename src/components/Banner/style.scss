@@ -2,16 +2,28 @@
 
 .banner {
     background-color: palegreen;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(100vh - 70px);
+    height: auto;
+    margin-top: 40px;
+    // max-height: 1000px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+
+    &__image {
+        max-width: 100%;
+        object-fit: cover;
+        height: 80vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+    }
 
     &::after {
         content: '';
@@ -26,17 +38,15 @@
     &__services {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-items: center;
         gap: 40px;
         position: absolute;
-        left: 10%;
-        top: 10%;
         z-index: 10;
 
         &__title {
             color: $white;
-            font-size: 160px;
+            font-size: 120px;
             font-family: $main-font-2;
             text-transform:uppercase;
             font-weight: $font-weight-600;
@@ -45,10 +55,67 @@
         &__text {
             color: $white;
             font-size: 24px;
-            font-weight: $font-weight-400;
+            font-weight: 200;
             text-align: left;
             max-width: 1000px;
             width: 90%;
+            text-align: center;
+        }
+
+        &__box {
+            border: 1px solid $white;
+            border-bottom: 0;
+            padding: 40px 40px 60px;
+            width: 100%;
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+
+            &__title {
+                font-size: 60px;
+                font-weight: 900;
+                color: $white;
+                width: 100%;
+                font-family: $main-font-3;
+            }
+
+            &__text {
+                font-size: 20px;
+                color: $white;
+                width: 100%;
+                
+            }
+
+            &::after {
+                content: '';
+                width: 35%;
+                height: 1px;
+                background-color: $white;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+            &::before {
+                content: '';
+                width: 35%;
+                height: 1px;
+                background-color: $white;
+                position: absolute;
+                right:  0;
+                bottom: 0;
+            }
+
+
+            img {
+                max-height: 100px;
+                transform: translateY(50px);
+                position: absolute;
+                bottom: 0;
+            }
         }
 
         &__buttons {
@@ -70,15 +137,6 @@
 
     }
     
-    
-    &__image {
-        max-width: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        
-    }
 
     &__tree {
         width: 105vw;
