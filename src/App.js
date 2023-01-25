@@ -22,10 +22,10 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu data={itemsMenu}/>} />
-        <Route path="/kit-festas" element={<Menu data={itemsFestas}/>} />
-        <Route path="/tortas" element={<Menu data={itemsTortas}/>} />
+        <Route path="/exemple-bakery" element={<Home />} />
+        <Route path="/exemple-bakery/menu" element={<Menu data={itemsMenu}/>} />
+        <Route path="/exemple-bakery/kit-festas" element={<Menu data={itemsFestas}/>} />
+        <Route path="/exemple-bakery/tortas" element={<Menu data={itemsTortas}/>} />
 
         {/* <Route path="users" element={<Users />}>
           <Route path="me" element={<OwnUserProfile />} />

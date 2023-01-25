@@ -44,12 +44,23 @@
         // padding: 0;
         // width: 100%;
         // max-width: initial;
+
+        @include mobile {
+            flex-direction: column;
+            padding: 15px;
+            gap: 15px;
+        }
     }
 
     &__bloco-esquerda {
         margin: 20px 0 50px;
         z-index: 100;
         width:36%;
+
+        @include mobile {
+            width: 100%;
+            margin: 0;
+        }
 
         img {
             max-width: 100%;
@@ -67,9 +78,20 @@
         flex-wrap: wrap;
         gap: 30px;
 
+        @include mobile {
+            width: 100%;
+            margin: 0;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
         div {
             width: 28%;
             height: 100%;
+
+            @include mobile {
+                width: calc(50% - 7.5px);
+            }
         }
         img {
             max-width: 100%;

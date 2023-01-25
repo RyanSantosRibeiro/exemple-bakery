@@ -35,16 +35,16 @@ const Header = () => {
             </div> */}
             <div className='container'>
                 <div className='header__logo'>
-                    <a href='/'>
+                    <a href='/exemple-bakery'>
                         <img src={logo} alt="Padaria"/>
                     </a>
                 </div>
 
                 <ul className='header__menu'>
-                    <li><a href='/'>Home</a></li>
-                    <li><Link to='/kit-festas'>Kit Festas</Link></li>
-                    <li><Link to='/tortas'>Tortas</Link></li>
-                    <li><Link to='/menu'>Cardápio</Link></li>
+                    <li><a href='/exemple-bakery'>Home</a></li>
+                    <li><Link to='/exemple-bakery/kit-festas'>Kit Festas</Link></li>
+                    <li><Link to='/exemple-bakery/tortas'>Tortas</Link></li>
+                    <li><Link to='/exemple-bakery/menu'>Cardápio</Link></li>
                     <li className='highlight'><a href='#contact'>Contato</a></li>
                     {/* <li className='highlight'><a href='#contact'>Contact</a></li> */}
                 </ul>

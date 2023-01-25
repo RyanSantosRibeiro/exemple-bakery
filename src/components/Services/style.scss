@@ -15,6 +15,10 @@
     .container {
         align-items: center;
         justify-content: space-evenly;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 
     &__modal {
@@ -37,6 +41,10 @@
         justify-content: space-between;
         flex-direction: column;
         gap: 20px;
+
+        @include mobile {
+            margin: 25px 0;
+        }
         
         &:hover {
             box-shadow:  10px 10px 40px #9b9b9b;

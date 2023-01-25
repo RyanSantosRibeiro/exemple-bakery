@@ -24,17 +24,17 @@ const Services = () => {
                 <a href='/' className='services__modal'>
                     <h4>Kit Festas</h4>
                     <img src={icon01}  alt=''/>
-                    <a href='/' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
+                    <a href='/exemple-bakery/kit-festa' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
                 </a>
                 <a href='/' className='services__modal'>
                     <h4>Tortas</h4>
                     <img src={icon02}  alt=''/>
-                    <a href='/' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
+                    <a href='/exemple-bakery/tortas' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
                 </a>
                 <a href='/' className='services__modal'>
                     <h4>Lanchonete</h4>
                     <img src={icon03}  alt=''/>
-                    <a href='/' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
+                    <a href='/exemple-bakery/menu' onClick={sendMessage()} className='services__modal__action'>Ver Mais!</a>
                 </a>
             </div>
         </section>

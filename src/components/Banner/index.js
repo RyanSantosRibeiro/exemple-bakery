@@ -45,7 +45,7 @@ const Banner = () => {
                 </div>
                 
                 <div className='banner__services__buttons'>
-                    <a href='/'>Cardápio</a>
+                    <a href='/exemple-bakery/menu'>Cardápio</a>
                     <a href='#contact'>ou entre em contato</a>
                 </div>
             </div>

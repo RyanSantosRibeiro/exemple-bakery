@@ -15,6 +15,10 @@
     position: relative;
     overflow: hidden;
 
+    @include mobile {
+        margin-top: 90px;
+    }
+
     &__image {
         max-width: 100%;
         object-fit: cover;
@@ -43,6 +47,10 @@
         gap: 40px;
         position: absolute;
         z-index: 10;
+
+        @include mobile {
+            padding: 0 15px;
+        }
 
         &__title {
             color: $white;
@@ -74,6 +82,10 @@
             gap: 20px;
             position: relative;
 
+            @include mobile {
+                margin-bottom: 20px;
+            }
+
             &__title {
                 font-size: 60px;
                 font-weight: 900;
@@ -97,6 +109,10 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;
+
+                @include mobile {
+                    width: 20%;
+                }
             }
 
             &::before {
@@ -107,6 +123,10 @@
                 position: absolute;
                 right:  0;
                 bottom: 0;
+
+                @include mobile {
+                    width: 20%;
+                }
             }
 
 
@@ -131,6 +151,12 @@
 
                 &:hover {
                     text-decoration: underline;
+                }
+            }
+
+            a {
+                @include mobile {
+                    width: 100% !important;     
                 }
             }
         }

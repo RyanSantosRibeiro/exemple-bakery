@@ -27,9 +27,9 @@ const Footer = () => {
                 </div>
                 <div className='footer__menu'>
                     <h4>Cardápio</h4>
-                    <a href='/'>Kit Festas</a>
-                    <a href='/'>Tortas</a>
-                    <a href='/'>Lanchonete</a>
+                    <a href='/exemple-bakery/kit-festas'>Kit Festas</a>
+                    <a href='/exemple-bakery/tortas'>Tortas</a>
+                    <a href='/exemple-bakery/menu'>Lanchonete</a>
                 </div>
             </div>
             <div className="develop">
