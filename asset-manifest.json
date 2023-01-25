@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/exemple-bakery/static/css/main.2a83201c.css",
-    "main.js": "/exemple-bakery/static/js/main.8e7a9ecd.js",
+    "main.css": "/exemple-bakery/static/css/main.25bb9d92.css",
+    "main.js": "/exemple-bakery/static/js/main.80b54e7f.js",
     "static/media/background-insta.jpg": "/exemple-bakery/static/media/background-insta.06644123398e5660d355.jpg",
     "static/media/fundoAbout.png": "/exemple-bakery/static/media/fundoAbout.9989742139327b89a713.png",
     "static/media/insta04.jpg": "/exemple-bakery/static/media/insta04.e00a74bd061870ae5340.jpg",
@@ -13,16 +13,16 @@
     "static/media/insta01.jpg": "/exemple-bakery/static/media/insta01.2b218c2e0ec9316d2b9b.jpg",
     "static/media/background.jpg": "/exemple-bakery/static/media/background.a23ad86b7c24ede7f764.jpg",
     "static/media/Dagelland-8MB7B.ttf": "/exemple-bakery/static/media/Dagelland-8MB7B.05a27b02a356b2622da9.ttf",
-    "static/media/LogoLadyDay.png": "/exemple-bakery/static/media/LogoLadyDay.56bb30b6ecb84401f4f1.png",
+    "static/media/LogoLadyDay.png": "/exemple-bakery/static/media/LogoLadyDay.e0e03e4dd7651bb9fd1d.png",
     "static/media/circle.png": "/exemple-bakery/static/media/circle.692237b663abcb5f1ff8.png",
     "static/media/icon-party.png": "/exemple-bakery/static/media/icon-party.c3ec4050f94764315ce6.png",
     "static/media/icon-cake.png": "/exemple-bakery/static/media/icon-cake.e980192e2845700113ff.png",
     "index.html": "/exemple-bakery/index.html",
-    "main.2a83201c.css.map": "/exemple-bakery/static/css/main.2a83201c.css.map",
-    "main.8e7a9ecd.js.map": "/exemple-bakery/static/js/main.8e7a9ecd.js.map"
+    "main.25bb9d92.css.map": "/exemple-bakery/static/css/main.25bb9d92.css.map",
+    "main.80b54e7f.js.map": "/exemple-bakery/static/js/main.80b54e7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a83201c.css",
-    "static/js/main.8e7a9ecd.js"
+    "static/css/main.25bb9d92.css",
+    "static/js/main.80b54e7f.js"
   ]
 }
