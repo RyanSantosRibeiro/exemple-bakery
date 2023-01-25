@@ -3,6 +3,7 @@ import './style.scss';
 
 import bg from '../../assets/img/background.jpg';
 import logo from './../../assets/img/LogoLadyDay.png';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     /*const [active,setActive] = useState(0);
@@ -45,7 +46,7 @@ const Banner = () => {
                 </div>
                 
                 <div className='banner__services__buttons'>
-                    <a href='/exemple-bakery/menu'>Cardápio</a>
+                    <Link to='/exemple-bakery/menu'>Cardápio</Link>
                     <a href='#contact'>ou entre em contato</a>
                 </div>
             </div>

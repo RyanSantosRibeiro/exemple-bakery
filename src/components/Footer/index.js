@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 
 import logo from './../../assets/img/LogoLadyDay.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -27,9 +28,9 @@ const Footer = () => {
                 </div>
                 <div className='footer__menu'>
                     <h4>Cardápio</h4>
-                    <a href='/exemple-bakery/kit-festas'>Kit Festas</a>
-                    <a href='/exemple-bakery/tortas'>Tortas</a>
-                    <a href='/exemple-bakery/menu'>Lanchonete</a>
+                    <Link to='/exemple-bakery/kit-festas'>Kit Festas</Link>
+                    <Link to='/exemple-bakery/tortas'>Tortas</Link>
+                    <Link to='/exemple-bakery/menu'>Lanchonete</Link>
                 </div>
             </div>
             <div className="develop">
