@@ -6,6 +6,7 @@ import $ from 'jquery';
 import logo from './../../assets/img/LogoLadyDay.png';
 import circle from './../../assets/img/circle.png';
 import bread from './../../assets/img/bread.png';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -41,10 +42,10 @@ const Header = () => {
 
                 <ul className='header__menu'>
                     <li><a href='/'>Home</a></li>
-                    <li><a href='#wedding'>Logística</a></li>
-                    <li><a href='#birthday'>Serviços</a></li>
-                    <li><a href='#birthday'>Comércio</a></li>
-                    <li className='highlight'><a href='#birthday'>Contato</a></li>
+                    <li><Link to='/kit-festas'>Kit Festas</Link></li>
+                    <li><Link to='/tortas'>Tortas</Link></li>
+                    <li><Link to='/menu'>Cardápio</Link></li>
+                    <li className='highlight'><a href='#contact'>Contato</a></li>
                     {/* <li className='highlight'><a href='#contact'>Contact</a></li> */}
                 </ul>
             </div>

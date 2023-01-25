@@ -1,0 +1,144 @@
+{
+    "name":"Menu",
+    "color": "#540b0e",
+    "category": [
+        {
+            "id": 1,
+            "name": "Salgados",
+            "items": [
+                {
+                    "id":1,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":2,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":3,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":4,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":5,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":6,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":7,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Doces",
+            "items": [
+                {
+                    "id":1,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":2,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":3,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":4,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Sucos",
+            "items": [
+                {
+                    "id":1,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":2,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":3,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":4,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Bolos",
+            "items": [
+                {
+                    "id":1,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":2,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":3,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                },
+                {
+                    "id":4,
+                    "name":"Coxinha",
+                    "description": "Massa com recheio de frango.",
+                    "price": 400
+                }
+            ]
+        }
+    ]
+}

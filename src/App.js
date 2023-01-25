@@ -1,28 +1,37 @@
 import './App.css';
 import './scss/reset.scss';
 import './scss/all.scss';
-import Banner from './components/Banner';
-import Header from './components/Header';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Services from './components/Services';
-import Instagram from './components/Instagram';
 
-function App() {
+import itemsMenu from './data/menu.json';
+import itemsFestas from './data/kit-festa.json';
+import itemsTortas from './data/torta.json';
+
+import React from "react";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+import Home from "./pages/Home";
+import Menu from './pages/Menu';
+
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Banner />
-      <Services />
-      <Instagram />
-      <Contact />
-      <About />
-      {/* <Gallery /> */}
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu data={itemsMenu}/>} />
+        <Route path="/kit-festas" element={<Menu data={itemsFestas}/>} />
+        <Route path="/tortas" element={<Menu data={itemsTortas}/>} />
+
+        {/* <Route path="users" element={<Users />}>
+          <Route path="me" element={<OwnUserProfile />} />
+          <Route path=":id" element={<UserProfile />} />
+        </Route> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
