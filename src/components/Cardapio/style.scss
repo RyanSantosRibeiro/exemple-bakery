@@ -125,7 +125,16 @@
                     font-size: 18px;
                     justify-content: center;
                 }
+
             }
+        }
+        .total {
+            font-size: 24px;
+            color: $color-4;
+            width: 100%;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 15px;
         }
     }
 

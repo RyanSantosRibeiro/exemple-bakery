@@ -27,13 +27,26 @@ const Cardapio = ({data}) => {
                             <span className='name'>{product.name}</span>
                             <span className='description'>{product.description}</span>
                         </p>
-                        <p className='price'>
+                        {
+                            product.price != 0 ?
+                            <p className='price'>
                             {`R$ ${(product.price / 100).toFixed(2)}`}
-                        </p>
+                            </p>
+                            :
+                            <></>
+                        }
                     </div>
                     )
                 }
             </div>
+                {
+                    item.total != 0 ?
+                    <p className='total'>
+                    {`Total: R$ ${(item.total / 100).toFixed(2)}`}
+                    </p>
+                    :
+                    <></>
+                }
         </div>
         );
     }
@@ -44,10 +57,10 @@ const Cardapio = ({data}) => {
                 <div className='cardapio__title'>_ {data.name} _</div>
                 <div className='cardapio__list'>
                     <div className='cardapio__list-col1'>
-                        { data != undefined ? data.category.map((item,i) => {if(i > (data.category.length / 2) - 1)return; return ListItems(item)}) : <></>}
+                        { data != undefined ? data.category.map((item,i) => {if(i < Math.round(data.category.length / 2)) return ListItems(item)}) : <></>}
                     </div>
                     <div className='cardapio__list-col2'>
-                        { data != undefined ? data.category.map((item,i) => {if(i < (data.category.length / 2))return; return ListItems(item)}) : <></>}
+                        { data != undefined ? data.category.map((item,i) => {if(i > Math.round(data.category.length / 2) - 1) return ListItems(item)}) : <></>}
                     </div>
                 </div>
             </div>

@@ -4,139 +4,37 @@
     "category": [
         {
             "id": 1,
-            "name": "Tortas",
+            "name": "Torta Pequena (G32)",
+            "total": 0,
             "items": [
                 {
                     "id":1,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":2,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":3,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":4,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":5,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":6,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":7,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
+                    "name":"Torta pequena rende de 5 a 10 pedaços",
+                    "price": 2990
                 }
             ]
         },
         {
             "id": 2,
-            "name": "Doces",
+            "name": "Torta Média",
+            "total": 0,
             "items": [
                 {
                     "id":1,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":2,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":3,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":4,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
+                    "name":"Torta Média rende de 10 a 15 pedaços",
+                    "price": 6490
                 }
             ]
         },
         {
             "id": 3,
-            "name": "Sucos",
+            "name": "Torta Grande",
+            "total": 0,
             "items": [
                 {
                     "id":1,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":2,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":3,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":4,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Bolos",
-            "items": [
-                {
-                    "id":1,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":2,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":3,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
-                },
-                {
-                    "id":4,
-                    "name":"Coxinha",
-                    "description": "Massa com recheio de frango.",
-                    "price": 400
+                    "name":"Torta Grande rende de 20 a 25 pedaços",
+                    "price": 7490
                 }
             ]
         }
